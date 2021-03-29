@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.email.IntroActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:background="@drawable/ic_background">
+
+    <TextView
+        android:id="@+id/tv_app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/intro_screen_title_text_margin_top"
+        android:text="@string/app_name"
+        android:textColor="@color/Blue_Dress"
+        android:textSize="@dimen/intro_screen_title_text_size"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/intro_screen_image_margin_top"
+        android:contentDescription="@string/image_content_description"
+        android:src="@drawable/ic_task_image"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/lets_get_started_text_margin_top"
+        android:textColor="@color/Black"
+        android:text="@string/lets_get_started"
+        android:textSize="@dimen/lets_get_started_text_size"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/intro_text_margin_startend"
+        android:layout_marginTop="@dimen/intro_text_margin_top"
+        android:layout_marginEnd="@dimen/intro_text_margin_startend"
+        android:gravity="center"
+        android:lineSpacingExtra="@dimen/intro_text_line_spacing_extra"
+        android:text="@string/intro_text_description"
+        android:textColor="@color/Gray_Cloud"
+        android:textSize="@dimen/intro_text_size"/>
+
+        <Button
+            android:id="@+id/intro_signin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/intro_btn_margin_startend"
+            android:layout_marginTop="@dimen/intro_btn_margin_top"
+            android:layout_marginEnd="@dimen/intro_btn_margin_startend"
+            android:background="@drawable/shape_button_rounded"
+            android:foreground="?attr/selectableItemBackground"
+            android:gravity="center"
+            android:paddingTop="@dimen/intro_btn_padding_top_bottom"
+            android:paddingBottom="@dimen/intro_btn_padding_top_bottom"
+            android:text="@string/sign_in"
+            android:textSize="@dimen/btn_text_size" />
+
+
+        <Button
+            android:id="@+id/intro_signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/intro_btn_margin_startend"
+            android:layout_marginBottom="@dimen/intro_btn_margin_top"
+            android:layout_marginEnd="@dimen/intro_btn_margin_startend"
+            android:background="@drawable/white_border_shape_button_rounded"
+            android:foreground="?attr/selectableItemBackground"
+            android:gravity="center"
+            android:paddingTop="@dimen/intro_btn_padding_top_bottom"
+            android:paddingBottom="@dimen/intro_btn_padding_top_bottom"
+            android:text="@string/sign_up"
+            android:textSize="@dimen/btn_text_size" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "693558440978",
+    "project_id": "cresllo",
+    "storage_bucket": "cresllo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:693558440978:android:4d9eceedd0fd3a7f8bd4cb",
+        "android_client_info": {
+          "package_name": "com.example.cresllo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "693558440978-cbulkmajgb8erpml1k2q2gccemorb24h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRAlCCC41NxnAaDFzwFDCWcYWuB1e9WDI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "693558440978-cbulkmajgb8erpml1k2q2gccemorb24h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

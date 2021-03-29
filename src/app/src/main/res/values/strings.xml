@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Cresllo</string>
+    <string name="image_content_description">image</string>
+    <string name="lets_get_started">Let\'s get started</string>
+    <string name="intro_text_description">Collaborate and plan together accross on Corsella Minimalist Interface</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="phone_no">Please Enter your phone \nNumber to continue \ncresslo App</string>
+
+
+    <string name="sign_up_description_text">Enter your name,email and password</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+
+    <string name="please_click_again_to_exit">Please Click Back Again to Exit</string>
+    <string name="please_wait">Please Wait&#8230;</string>
+
+    <string name="name_enter">Please Enter your name</string>
+    <string name="email_enter">Please Enter your email</string>
+    <string name="password_enter">Please Enter your password</string>
+
+    <string name="user_registration">Now we can register a user</string>
+    <string name="nav_my_profile">My Profile</string>
+    <string name="nav_sign_out">Sign Out</string>
+    <string name="update">Update</string>
+    <string name="my_profile_title">PROFILE</string>
+
+    <string name="create_board_title">Create Board</string>
+    <string name="create">CREATE</string>
+    <string name="boaed_name">Board Name</string>
+    <string name="no_boards_are_available">No Boards are available!!!</string>
+    <string name="mobile">MOBILE</string>
+    <string name="continues">continue</string>
+    <string name="action_add_list">Add List</string>
+    <string name="hint_list_name">List Name</string>
+    <string name="action_add_card">Add Card</string>
+    <string name="hint_card_name">Card Name</string>
+    <string name="add_list">Add List</string>
+    <string name="step_1">STEP 1</string>
+    <string name="step_2">STEP 2</string>
+
+    <string name="members">Members</string>
+
+    <string name="add_member">Add Member</string>
+    <string name="cancel">CANCEL</string>
+    <string name="add">ADD</string>
+    <string name="search_member">Search Member</string>
+
+
+    <string name="label_color">Label Color</string>
+    <string name="select_color">Select Color</string>
+    <string name="select_members">Select Members</string>
+
+    <string name="due_date">Due Date</string>
+    <string name="start_date">Start Date</string>
+    <string name="select_due_date">Select Due Date</string>
+    <string name="select_start_date">Select Start Date</string>
+    <string name="delete_card">Delete Card</string>
+
+    <string name="alert">Alert</string>
+    <string name="confirmation_message_to_delete_card">Are you sure you want to delete card \'%1$s\'?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="str_select_label_color">Select Label Color</string>
+
+    <string name="str_select_member">Select Member</string>
+
+
+    <string name="default_notification_channel_id">projemanag_notification_channel_id</string>
+</resources>

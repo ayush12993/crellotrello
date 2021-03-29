@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cresllo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Cresllo">
+        <activity android:name=".activity.phone.logout"></activity>
+        <activity android:name=".activity.phone.Verify" />
+        <activity android:name=".activity.phone.PhoneAuthVerification" />
+        <activity android:name=".activity.tasks.CardDetailsActivity" />
+        <activity android:name=".activity.tasks.MembersActivity" />
+        <activity android:name=".activity.tasks.TaskListActivity" />
+        <activity android:name=".activity.tasks.BoardActivity" />
+        <activity android:name=".activity.email.Profile_Activity" />
+        <activity android:name=".activity.content_main" />
+        <activity android:name=".activity.BaseActivity" />
+        <activity android:name=".activity.email.SignIn" />
+        <activity android:name=".activity.email.SignUp" />
+        <activity android:name=".activity.email.IntroActivity" />
+        <activity android:name=".activity.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.tasks.MainActivity" />
+    </application>
+
+</manifest>

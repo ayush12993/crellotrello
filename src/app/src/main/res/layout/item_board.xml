@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="?attr/selectableItemBackground"
+    android:orientation="vertical"
+    android:layout_marginBottom="@dimen/item_board_content_marginBottom">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/item_board_content_padding">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_board_image"
+            android:layout_width="@dimen/item_board_image_size"
+            android:layout_height="@dimen/item_board_image_size"
+            android:contentDescription="@string/image_content_description"
+            android:src="@drawable/ic_profile"
+            app:civ_border_color="@color/Black"
+            app:civ_border_width="@dimen/nav_image_circular_border_width"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/item_board_name_layout_marginStart"
+            android:orientation="vertical">
+
+<TextView
+    android:id="@+id/tvasname"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@color/Black"
+    android:textSize="@dimen/item_board_name_text_size"
+    tools:text="Board Name"/>
+            <TextView
+                android:id="@+id/tv_created_by"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/Black"
+                android:textSize="@dimen/item_board_created_by_text_size"
+                tools:text="Created By"/>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_board_divider_height"
+        android:layout_marginTop="@dimen/item_board_divider_marginTop"
+        android:background="@color/Gray_Goose"/>
+
+
+</LinearLayout>
